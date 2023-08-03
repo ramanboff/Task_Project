@@ -102,7 +102,7 @@ header .headerContent .navbar .contactUs-btn:hover {
   position: relative;
   top: 0;
   left: 0;
-  width: 55%;
+  width:50%;
   height: 600px;
   justify-content: center;
   align-items: center;
@@ -124,8 +124,7 @@ header .headerContent .navbar .contactUs-btn:hover {
 .slogan .left-container .left-info {
   position: relative;
   width: 558px;
-  z-index: 1;
-}
+ }
 
 .slogan .left-container .left-info .info-desc-header {
   margin-bottom: 15px;
@@ -173,10 +172,13 @@ header .headerContent .navbar .contactUs-btn:hover {
 }
 
 .right {
+  align-items: center;
   position: relative;
-  width: 45%;
+  left: 85px;
+  width: 50%;
   height: 700px;
   background-image: url('../images/rigthStar.svg');
+  /* background-color: #be8383; */
 
 }
 .right::before {
@@ -189,18 +191,38 @@ header .headerContent .navbar .contactUs-btn:hover {
   width: 100%;
   height: 60%;
   bottom: 0;
+  z-index: 0;
 
 }
-.right::after{
+/* .right::after{
   content: '';
-
   background-image: url('../images/yellowBg.svg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  width: 100%;
+width: 100%;
   height: 60%;
   top: 30px;
  
-}
+} */
+
+.right .yellow-bg{
+  position: absolute;
+  top: 50px;
+  width: 404px;
+  }
+  .right .col-3{
+    position: absolute;
+    bottom: 160px;
+  }
+  .right .col-3-2{
+    position: absolute;
+    top: 70px;
+
+  }
+  .right .right-B{
+    position: absolute;
+   bottom: 200px;
+   right: 115px;
+  }
