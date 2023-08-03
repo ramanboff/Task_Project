@@ -1,0 +1,50 @@
+:root{
+ --currentBgColor:#132B4D;
+ --currentColor:#E9EEF4;
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style-type: none;
+ outline: none;
+}
+.container{
+ max-width: 1040px;
+ width: 100%;
+ margin-inline: auto;
+ /* background-color: blanchedalmond; */
+}
+.row{
+ display: flex;
+}
+.col{
+ display: flex;
+ flex-direction: column;
+}
+@media(max-width:1400px){
+ .container{
+  max-width: 1140px !important;
+ }
+}
+@media(max-width:1200px){
+.container{
+  max-width: 960px !important;
+ }
+ }
+ @media(max-width:992px){
+  .container{
+   max-width: 720px !important;
+  }
+ }
+ @media(max-width:768px){
+  .container{
+   max-width: 540px !important;
+  }
+ }
+ @media(max-width:576px){
+  .container{
+   max-width: 90% !important;
+  }
+ }

@@ -1,0 +1,206 @@
+@import url(layout.css);
+@font-face {
+  font-family: Syne;
+  src: url('../fonts/Syne/Syne-SemiBold.ttf');
+}
+@font-face {
+  font-family: DM_Sans;
+  src: url('../fonts/DM-Sans/DMSans-Regular.ttf');
+}
+html,
+body {
+  font-family: DM_Sans;
+}
+header {
+  position: fixed;
+ top: 0;
+ left: 0;
+right: 0;
+background-color: var(--currentBgColor);
+  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.33);
+ z-index: 1;
+}
+header .headerContent {
+  width: 100%;
+  height: 110px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #004598;
+}
+
+/* NAVBAR */
+header .headerContent .navbar {
+  align-items: center;
+  gap: 20px;
+}
+header .headerContent .navbar a {
+  color: var(--currentColor);
+  overflow: hidden;
+}
+header .headerContent .navbar a:hover {
+  border-bottom: 1px solid var(--currentColor);
+}
+
+header .headerContent .navbar .contactUs-btn {
+  background: linear-gradient(282.95deg, #e215a7 -11.93%, #ee1d78 134.56%);
+  border-radius: 4px;
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  width: 120px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+  margin-left: 100px;
+  transition: all 0.5s;
+  border-radius: 4px;
+  /* background: linear-gradient(334deg, #E215A7 0%, #EE1D78 100%); */
+  box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.28);
+}
+header .headerContent .navbar .contactUs-btn:hover {
+  background: #f3e2e2;
+  border-bottom: none;
+  color: rgb(64, 59, 59);
+}
+
+/* slogan */
+
+.section-1 {
+  position: relative;
+  top: 110px;
+  background: linear-gradient(to bottom right, #0d1d3a, #3d5588);
+  width: 100%;
+  height: 700px;
+  /* background-image: url('../images/angles.svg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.section-1::before {
+  content: '';
+  position: absolute;
+  top: 100px;
+  width: 50%;
+  height: 90%;
+  background-image: url('../images/angles.svg');
+  opacity: 0.3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slogan {
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+
+
+.left-container {
+  background-image: url('../images/stars1.svg');
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: gray; */
+}
+.left-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/stars2.svg');
+  background-image: linear-gradient(to bottom right, #040747, #415785);
+  z-index: -1;
+}
+
+
+.slogan .left-container .left-info {
+  position: relative;
+  width: 558px;
+  z-index: 1;
+}
+
+.slogan .left-container .left-info .info-desc-header {
+  margin-bottom: 15px;
+  color: #feb109;
+  font-size: 16px;
+  font-weight: 500;
+}
+.slogan .left-container .left-info .info-header {
+  font-family: Syne;
+  width: 18ch;
+  line-height: 60px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #e9eef4;
+  margin-bottom: 40px;
+}
+.slogan .left-container .left-info .description {
+  font-family: DM_Sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ededed;
+  line-height: 26px;
+  width: 50ch;
+  margin-bottom: 60px;
+
+}
+.slogan .left-container .left-info .get-started-container {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e9eef4;
+}
+.slogan .left-container .left-info .get-started-container {
+  align-items: center;
+  gap: 30px;
+}
+.slogan .left-container .left-info .get-started-container .started-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(278.44deg, #e215a7 -7.56%, #ee1d78 118.54%);
+}
+.slogan .left-container .left-info .get-started-container .play-btn {
+  font-size: 40px;
+  color: #e215a7;
+}
+
+.right {
+  position: relative;
+  width: 45%;
+  height: 700px;
+  background-image: url('../images/rigthStar.svg');
+
+}
+.right::before {
+  content: '';
+  background-image: url('../images/_x31_2_1_.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  bottom: 0;
+
+}
+.right::after{
+  content: '';
+
+  background-image: url('../images/yellowBg.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 30px;
+ 
+}
