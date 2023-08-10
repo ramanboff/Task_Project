@@ -537,7 +537,7 @@ main {
   bottom: 20px;
   width: 370px;
   padding-top: 10px;
-  z-index: 2;
+  z-index: 0;
   height: 278.86px;
   flex-shrink: 0;
   border-radius: 10px;
@@ -857,12 +857,18 @@ height: 347.454px;
 border-radius: 10px;
 transform: rotate(5.043deg);
 flex-shrink: 0;
-
 fill: linear-gradient(325deg, #E215A7 7.37%, #EE1D78 88.84%);
 opacity: 0.69;
 }
-.section-5 .bitCoin-container .learn-more-btn{
+.section-5 .bitCoin-container .second-card img{
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
 
+.section-5 .bitCoin-container .learn-more-btn{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
   margin-top: 30px;
   padding: 7px 16px;
   width: 135.901px;
@@ -895,6 +901,178 @@ box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.28);
 .section-5 .bitCoin-container .second-learn-more-btn a{
   color: #E9EEF4;;
 }
+
+
+
+/* section-6 */
+.section-6{
+  padding-top: 100px;
+}
+.section-6 .subHeader{
+align-items: center;
+gap: 20px;
+}
+.section-6 .subHeader p{
+  width: 20ch;
+  color: #E9EEF4;
+font-family: Syne;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 135.294% */
+text-transform: capitalize;
+}
+.section-6 .bitCoin-container .logo{
+  margin-top: 60px;
+  margin-bottom:60px;
+  position: relative;
+justify-content: center;
+align-items: center;
+}
+.section-6 .bitCoin-container .first-card .logo{
+  margin-top: 60px;
+  margin-bottom:100px;
+
+}
+.section-6 .bitCoin-container .logo img{
+ position: absolute;
+
+}
+.section-6 .bitCoin-container .first-card{
+
+  width: 370px;
+  height: 347.454px;
+  position: relative;
+  top: 30px;
+}
+.section-6 .bitCoin-container .first-card::after{
+  display: none;
+}
+
+/* section-7 */
+
+.section-7{
+  padding-top: 110px;
+}
+.section-7 .about-header-description button{
+border: none;
+width: 135.9px;
+height: 40px;
+flex-shrink: 0;
+background: linear-gradient(348deg, #E215A7 0%, #EE1D69 74.99%);
+border-radius: 4px;
+color: #E9EEF4;
+font-family: DM_Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+text-transform: capitalize;
+}
+.section-7 .content{
+  justify-content: space-between;
+}
+.section-7 .content .left{
+  width: 60%;
+}
+.section-7 .content .left .left-img{
+  width: 671.791px;
+height: 458.308px;
+flex-shrink: 0;
+}
+.section-7 .content .left .left-img img{
+  width: 90%;
+}
+
+
+.section-7 .content .right{
+  width: 40%;
+  align-items: flex-start;
+}
+.section-7 .content .right .amound-container{
+  justify-content: space-between;
+  color: #E9EEF4;
+  font-family: DM_Sans;
+  font-size: 32px;
+width: 100%;
+  font-weight: 700;
+  line-height: 50px; 
+  text-transform: capitalize;
+}
+.section-7 .content .right .amound-container .amound{
+  display: inline-block;
+  width: fit-content;
+  color: #E9EEF4;
+  font-family: DM_Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; 
+  text-transform: capitalize; 
+  height: 20px;
+}
+.section-7 .content .right p{
+  width: 100%;
+  color: #E8E8E8;
+font-family: DM_Sans;
+font-size: 16px;
+margin-bottom: 30px;
+font-weight: 400;
+line-height: 26px; 
+text-transform: lowercase;
+}
+.section-7 .content .right .right-header{
+
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+width: 261.475px;
+height: 50px;
+border-radius: 4px;
+background: #FEB109;
+box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+.section-7 .content .right .right-header p{
+color: #E9EEF4;
+font-family: DM_Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+text-transform: capitalize;
+}
+.section-7 .content .right .pink-border{
+  margin-bottom: 20px;
+  width: 100%;
+height: 19.543px;
+background: linear-gradient(360deg, #E215A7 0%, #E215A7 98.44%);
+box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.34) inset;
+border-radius: 30px;
+}
+.section-7 .content .right .softCap-container{
+  width: 100%;
+  justify-content: space-between;
+}
+.section-7 .content .right .softCap-container p{
+  color: #ECECEC;
+font-family: DM_Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; 
+letter-spacing: 0.17px;
+
+}
+.section-7 .content .right .softCap-container .softCap-amound p{
+  color: #FEB109;
+font-family: DMSans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; 
+
+}
+
 
 .radial-grad-container-3 .grad-cont-1 {
   height: 800px;
