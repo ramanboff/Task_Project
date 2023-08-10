@@ -19,7 +19,7 @@ header {
 
   background-color: var(--currentBgColor);
   box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.33);
-  z-index:2;
+  z-index: 2;
 }
 header .headerContent {
   width: 100%;
@@ -74,26 +74,24 @@ header .headerContent .navbar .contactUs-btn:hover {
   font-weight: 700;
   line-height: 46px; /* 135.294% */
   text-transform: capitalize;
-  background: linear-gradient(168deg, #EE1D76 0%, #E215A7 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(168deg, #ee1d76 0%, #e215a7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.about-header-description .headerWithBorder .header{
+.about-header-description .headerWithBorder .header {
   display: block;
   width: 800px;
-  color: #E9EEF4;
-  color: #E9EEF4;
-font-family: Syne;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: 50px; /* 125% */
-text-transform: capitalize;
-
-
-  }
+  color: #e9eef4;
+  color: #e9eef4;
+  font-family: Syne;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+  text-transform: capitalize;
+}
 
 /* slogan */
 
@@ -254,7 +252,7 @@ main {
 
   margin-top: 110px;
 }
-.section-2{
+.section-2 {
   padding: 110px 0 0 100px;
 }
 
@@ -377,7 +375,6 @@ main {
   gap: 30px;
   margin-bottom: 20px;
   margin-inline: auto;
- 
 }
 
 .section-2 .company-standarts {
@@ -474,11 +471,9 @@ main {
 
 /* section-2 accelerate */
 .section-2 .accelerate {
-margin-bottom: 125px;
+  margin-bottom: 125px;
   align-items: center;
   gap: 40px;
-
-  
 }
 .section-2 .accelerate .left {
   position: relative;
@@ -500,15 +495,13 @@ margin-bottom: 125px;
   border-radius: 4px;
   font-size: 16px;
 }
-.section-2 .accelerate .right .description{
- 
-color: #E8E8E8;
-font-family: DM_Sans;
-font-size: 16px;
-font-weight: 400;
-text-transform: lowercase;
+.section-2 .accelerate .right .description {
+  color: #e8e8e8;
+  font-family: DM_Sans;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: lowercase;
 }
-
 
 /* Bitcoin */
 
@@ -520,114 +513,110 @@ text-transform: lowercase;
 }
 
 .about-header-description {
-
-    width: 30ch;
-    padding-top: 50px;
-    width: 55ch;
-    color: #e8e8e8;
-    text-align: center;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-  
-  }
-.section-3 .bitCoin-container{
+  width: 30ch;
+  padding-top: 50px;
+  width: 55ch;
+  color: #e8e8e8;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+ .bitCoin-container {
   justify-content: space-between;
-  padding-top:70px;
+  padding-top: 70px;
 }
-.section-3 .bitCoin-container .card{
+ .bitCoin-container .card {
   width: 370px;
-height: 278.86px;
-align-items: center;
-
+  height: 278.86px;
+  align-items: center;
 }
-.section-3 .bitCoin-container .first-card{
+ .bitCoin-container .first-card {
   position: relative;
   bottom: 20px;
   width: 370px;
   padding-top: 10px;
   z-index: 2;
-height: 278.86px;
-flex-shrink: 0;
-border-radius: 10px;
-background: linear-gradient(319deg, #E215A7 0%, #EE1D78 100%);
-box-shadow: 5px 6px 8px 0px rgba(29, 19, 19, 0.27);
+  height: 278.86px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(319deg, #e215a7 0%, #ee1d78 100%);
+  box-shadow: 5px 6px 8px 0px rgba(29, 19, 19, 0.27);
 }
-.section-3 .bitCoin-container .first-card::after{
-  content:"";
+ .bitCoin-container .first-card::after {
+  content: '';
   width: 379.04px;
   height: 278.86px;
   transform: rotate(4.698deg);
   flex-shrink: 0;
   border-radius: 10px;
-opacity: 0.79;
-background: linear-gradient(335deg, #E215A7 0%, #EE1D78 100%);
-position: absolute;
-z-index: -1;
-top: 30px;
-left: 12px;
+  opacity: 0.79;
+  background: linear-gradient(335deg, #e215a7 0%, #ee1d78 100%);
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: 12px;
 }
 
-.section-3 .bitCoin-container .second-card .slider-btns{
+.bitCoin-container .second-card .slider-btns {
   margin-top: 44px;
   gap: 10px;
 }
-.section-3 .bitCoin-container .second-card .first-btn{
+.bitCoin-container .second-card .first-btn {
   width: 20.19px;
   height: 5px;
   flex-shrink: 0;
   border-radius: 20px;
-  background: #E6189A;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.40);
+  background: #e6189a;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.4);
 }
-.section-3 .bitCoin-container .second-card .slider-btn{
+.bitCoin-container .second-card .slider-btn {
   width: 10.095px;
   height: 5px;
   flex-shrink: 0;
   border-radius: 20px;
-background: #5E7693;
-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.40);
+  background: #5e7693;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.4);
 }
-.section-3 .bitCoin-container .card .logo{
+.bitCoin-container .card .logo {
   margin-bottom: 15px;
 }
-.section-3 .bitCoin-container .first-card .logo{
+.bitCoin-container .first-card .logo {
   margin-bottom: 0;
 }
 /* .section-2 .bitCoin-container .first-card .logo img{
   width: 100px;
   height: 100px;
 } */
-.section-3 .bitCoin-container .card .logo .logo-container{
+.bitCoin-container .card .logo .logo-container {
   position: relative;
-width: 80.06px;
-height: 80.06px;
-border-radius: 10px;
-background: linear-gradient(0deg, #13223D 0%, #13223D 100%), #13223D;
-box-shadow: 0px 0px 24px -7px #88BCFA inset;
-justify-content: center;
-align-items: center;
+  width: 80.06px;
+  height: 80.06px;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #13223d 0%, #13223d 100%), #13223d;
+  box-shadow: 0px 0px 24px -7px #88bcfa inset;
+  justify-content: center;
+  align-items: center;
 }
-.section-3 .bitCoin-container .card .logo .logo-container >img{
-position: absolute;
-margin-left: 12px;
-margin-top: 8px;
-width: 53.582px;
-height: 45.749px;
-
+.bitCoin-container .card .logo .logo-container > img {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 8px;
+  width: 53.582px;
+  height: 45.749px;
 }
-.section-3 .bitCoin-container .card .cardHeader{
+.bitCoin-container .card .cardHeader {
   margin-bottom: 20px;
-  color: #E9EEF4;
-font-family: DM_Sans;
-font-size: 24px;
-font-weight: 500;
-text-transform: capitalize;
+  color: #e9eef4;
+  font-family: DM_Sans;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
-.section-3 .bitCoin-container .card .cardDescription{
+.bitCoin-container .card .cardDescription {
   width: 35ch;
-  color: #EDEDED;
+  color: #ededed;
   text-align: center;
   font-family: DM Sans;
   font-size: 16px;
@@ -637,50 +626,275 @@ text-transform: capitalize;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
-.section-3 .bitCoin-container .card .playButton{
+.bitCoin-container .card .playButton {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   width: 44px;
-height: 44px;
-/* transform: rotate(-30deg); */
-flex-shrink: 0;
-background-color: #E215A7;
-filter: drop-shadow(5px 5px 19px rgba(0, 0, 0, 0.61));
+  height: 44px;
+  /* transform: rotate(-30deg); */
+  flex-shrink: 0;
+  background-color: #e215a7;
+  filter: drop-shadow(5px 5px 19px rgba(0, 0, 0, 0.61));
 }
-.section-3 .bitCoin-container .card .playButton .fa-angle-right{
-color: #E9EEF4;
-font-size: 30px;
-
+.bitCoin-container .card .playButton .fa-angle-right {
+  color: #e9eef4;
+  font-size: 30px;
 }
-.section-3{
+.section-3 {
   padding-bottom: 125px;
 }
 
-
 /* section -4 */
-.section-4 .about-header-description{
+.section-4 .about-header-description {
   margin-bottom: 71px;
 }
 
-.section-4 .cripto-calc-container{
+.section-4 .cripto-calc-container {
   width: 1170px;
-height: 948.877px;
-flex-shrink: 0;
-border-radius: 10px;
-background: #10345C;
-box-shadow: 10px 13px 26px 0px rgba(0, 0, 0, 0.11);
+  height: 948.877px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #10345c;
+  box-shadow: 10px 13px 26px 0px rgba(0, 0, 0, 0.11);
 }
-.section-4 .cripto-calc-container.header{
+.section-4 .cripto-calc-container .header {
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
   width: 1170px;
   height: 80.912px;
-  background-color: #00244B;
+  background-color: #00244b;
+}
+.section-4 .cripto-calc-container .header .header-nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.section-4 .cripto-calc-container .header .header-nav .header-nav-list {
+  color: #e9eef4;
+  font-family: DM_Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+  text-transform: uppercase;
+}
+/* .active {
 
+position: relative;
+top: 8px;
+  padding: 12px 15px 25px 15px;
+  border-radius: 3px;
+  background: #10345c;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.31);
+  color: #E215A7;
+font-family: DM_Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; 
+text-transform: uppercase;
+} */
+.section-4 .cripto-calc-container .header .header-nav .header-nav-list:hover {
+  position: relative;
+  right: 0px;
+  top: 8px;
+    padding: 12px 15px 25px 15px;
+    border-radius: 3px;
+    background: #10345c;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.31);
+    color: #E215A7;
+  font-family: DM_Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+  text-transform: uppercase;
+}
+.section-4 .cripto-calc-container .content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 32px 12px;
+}
+.section-4 .cripto-calc-container .content .left {
+  width: 20%;
+}
+.section-4 .cripto-calc-container .content .left .logo-img,
+.section-4 .cripto-calc-container .content .left .calculated-box {
+  justify-content: center;
+  align-items: center;
+  width: 331.816px;
+  height: 151.006px;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #0a1136;
+  background: linear-gradient(180deg, #24305a 0%, #273b5e 0.01%, #2f656d 100%);
+}
+.section-4 .cripto-calc-container .content .left .calculated-box-container {
+
+  width: 331.816px;
+  height: 680.206px;
+  border-radius: 4px;
+  border: 1px solid #0a1136;
+  background: #242d59;
 }
 
+.section-4 .cripto-calc-container .content .left .calculated-box {
  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 68px;
+  background: linear-gradient(0deg, #242d59 18.89%, #2f656d 89.86%);
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.25);
+}
+.section-4 .cripto-calc-container .content .left .calculated-box p:first-child{
+  color: #E9EEF4;
+font-family: DM_Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
 
+
+}
+.section-4 .cripto-calc-container .content .left .calculated-box p:last-child{
+  color: #FDB009;
+font-family: DM_Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+
+}
+.section-4 .cripto-calc-container .content .left .calculated-box-container 
+.hashing-power-column{
+  padding-left: 23px;
+}
+.section-4 .cripto-calc-container .content .left .calculated-box-container 
+.hashing-power-column .hashing-power .th-s-selection{
+width: 120px;
+height: 40px;
+padding: 15px;
+  flex-shrink: 0;
+  border-radius: 4px;
+border: 1px solid #0A1136;
+background: #242D59;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-4 .cripto-calc-container .content .left .calculated-box-container 
+.hashing-power-column .header{
+  background-color: transparent;
+
+  width:fit-content;
+  height: fit-content;
+  color: #E9EEF4;
+  font-family: DM_Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  text-transform: capitalize;
+
+}
+.section-4 .cripto-calc-container .content .left .calculated-box-container 
+.hashing-power-column .hasing-selection{
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 10px 14px 22px;
+  width: 169.984px;
+height: 55.657px;
+border-radius: 4px 0px 0px 4px;
+border: 1px solid #0A1136;
+background: #10345C;
+}
+.section-4 .cripto-calc-container .content .left .calculated-box-container 
+.hashing-power-column .hasing-selection .inc-dec-arrow{
+  width: 18.14px;
+height: 27.303px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #E9EEF4;
+}
+
+
+.section-4 .cripto-calc-container .content .right {
+  width: 80%;
+}
+
+
+
+/* section-5 */
+.section-5 .bitCoin-container .card{
+  align-items: flex-start;
+}
+.section-5 .bitCoin-container .card .cardDescription{
+ text-align: start;
+}
+
+.section-5 .bitCoin-container .first-card {
+  margin-right: 60px;
+  position: relative;
+  width: 370px;
+height: 347.454px;
+border-radius: 10px;
+align-items: flex-start;
+padding-left: 33px;
+
+}
+.section-5 .bitCoin-container .first-card .cardDescription{
+  text-align: start;
+}
+.section-5 .bitCoin-container .first-card .logo{
+  align-self: flex-start;
+}
+.section-5 .bitCoin-container .first-card::after {
+position: absolute;
+content: "";
+width: 370px;
+height: 347.454px;
+border-radius: 10px;
+transform: rotate(5.043deg);
+flex-shrink: 0;
+
+fill: linear-gradient(325deg, #E215A7 7.37%, #EE1D78 88.84%);
+opacity: 0.69;
+}
+.section-5 .bitCoin-container .learn-more-btn{
+
+  margin-top: 30px;
+  padding: 7px 16px;
+  width: 135.901px;
+height: 40px;
+border-radius: 4px;
+background: linear-gradient(348deg, #E215A7 0%, #EE1D69 74.99%);
+box-shadow: -2px -2px 5px 0px rgba(108, 136, 192, 0.03);
+}
+.bitCoin-container  .learn-more-btn a{
+
+  color: #E9EEF4;
+font-family: DMSans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+text-transform: capitalize;
+}
+.section-5 .bitCoin-container .first-card .learn-more-btn .fa-angle-right{
+color: #E9EEF4;
+
+}
+.section-5 .bitCoin-container .second-learn-more-btn {
+  color: #E9EEF4;
+padding: 7px 16px;
+border-radius: 4px;
+border: 1px solid #E215A7;
+box-shadow: 3px 4px 13px 0px rgba(0, 0, 0, 0.28);
+}
+.section-5 .bitCoin-container .second-learn-more-btn a{
+  color: #E9EEF4;;
+}
 
 .radial-grad-container-3 .grad-cont-1 {
   height: 800px;
