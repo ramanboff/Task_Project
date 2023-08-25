@@ -878,9 +878,52 @@ gap: 2rem;
 background: #2F656D;
 box-shadow: 1px 3px 0px 0px #000;
 }
-/* .section-4 .cripto-calc-container .content .right .day-container{
+.section-4
+  .cripto-calc-container
+  .content
+  .right
+  .right-header-container
+  .right-header
+  .header-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.7432rem;
+    height: 2.5822rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+background: #294462;
+box-shadow: 0.125rem 0.1875rem 0.375rem 0rem rgba(0, 0, 0, 0.29);
+  }
+  .section-4
+  .cripto-calc-container .content .right .right-header-container .right-header .header-description p{
+    color: #FEB109;
+/* font-family: DM_Sans; */
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 152.941% */
+letter-spacing: 0.17px;
+text-transform: uppercase;
+  }
+  .cripto-calc-container .content .right .right-header-container .header-img-container{
+    justify-content: space-between;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-color: blue;
+    
+  }
+  .cripto-calc-container .content .right .right-header-container .header-img-container img{
+    position: absolute;
+    width: 100px;
+    height: 20px;
 
-} */
+  }
+
+  
+
+
 .section-4 .cripto-calc-container .content .right .content-row-container .profit-container{
   width: 248.776px;
 height: 139.088px;
