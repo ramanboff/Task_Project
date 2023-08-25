@@ -925,12 +925,26 @@ text-transform: uppercase;
 
 
 .section-4 .cripto-calc-container .content .right .content-row-container .profit-container{
+  padding:1.5rem 1rem 1.5rem 0;
   width: 248.776px;
 height: 139.088px;
 flex-shrink: 0;
 border-radius: 14px 0px 0px 14px;
 border: 1px solid #0A1136;
 background: linear-gradient(146deg, #3FB488 0%, #1E124F 100%);
+}
+.section-4 .cripto-calc-container .content .right .content-row-container .profit-container .date-texture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #E9EEF4;
+  font-size: 1rem;
+  align-self: flex-end;
+  width: 90.123px;
+height: 33.507px;
+flex-shrink: 0;
+border-radius: 0px 16px 0px 14px;
+background: #242D59;
 }
 .section-4 .cripto-calc-container .content .right .content-row-container .mined-container{
   width: 248.628px;
